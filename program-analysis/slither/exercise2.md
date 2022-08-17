@@ -1,4 +1,4 @@
-# Exercice 2: Access control
+# Exercise 2: Access control
 
 [exercises/exercise2/coin.sol](exercises/exercise2/coin.sol) possess an access control with the `onlyOwner` modifier.
 A frequent mistake is to forget to add the modifier to a critical function. We are going to see how to implement a conservative access control approach with Slither.
