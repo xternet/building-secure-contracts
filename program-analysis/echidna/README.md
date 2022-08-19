@@ -42,8 +42,8 @@ Echidna can be installed through docker or using the pre-compiled binary.
 ### Echidna through docker
 
 ```bash
-docker pull trailofbits/eth-security-toolbox
-docker run -it -v "$PWD":/home/training trailofbits/eth-security-toolbox
+sudo docker pull trailofbits/eth-security-toolbox
+sudo docker run -it -v "$PWD":/home/training trailofbits/eth-security-toolbox
 ```
 
 *The last command runs eth-security-toolbox in a docker container that has access to your current directory. You can change the files from your host and run the tools on the files through the container*
